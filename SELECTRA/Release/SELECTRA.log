@@ -1,0 +1,36 @@
+﻿Build started 4/30/2016 5:58:41 PM.
+     1>Project "F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\SELECTRA\SELECTRA.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Bengine" /I"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\deps\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
+         MainGame.cpp
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\selectra\MainGame.h(12): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\selectra\gameObject.h(34): warning C4244: 'return' : conversion from 'float' to 'int', possible loss of data
+     1>MainGame.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>MainGame.cpp(87): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>MainGame.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>MainGame.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(176): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(184): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>MainGame.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(340): warning C4018: '<' : signed/unsigned mismatch
+     1>MainGame.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Release\SELECTRA.exe" /NOLOGO /LIBPATH:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Release" /LIBPATH:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\deps\lib\Release" glew32.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib SDL2_ttf.lib SDL2_mixer.lib Bengine.lib "CEGUIBase-0.lib" "CEGUIOpenGLRenderer-0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Release\SELECTRA.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Release\SELECTRA.lib" /MACHINE:X86 /SAFESEH Release\AI.obj
+         Release\Balls.obj
+         Release\gameObject.obj
+         Release\_GUI.obj
+         Release\Level.obj
+         Release\Main.obj
+         Release\MainGame.obj
+         Release\Selectra.obj
+         Generating code
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\selectra\ai.cpp(48): warning C4715: 'AI::createDirVector' : not all control paths return a value
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\iomanager.cpp(30): warning C4715: 'Bengine::IOManager::readFileToBuffer' : not all control paths return a value
+         Finished generating code
+         SELECTRA.vcxproj -> F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Release\SELECTRA.exe
+     1>Done Building Project "F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\SELECTRA\SELECTRA.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.74

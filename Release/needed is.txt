@@ -1,0 +1,71 @@
+/*for (int i = 0; i < _balls.size(); i++){
+		_gameObject[1] = _balls[i];
+		//checking ball ball collision
+		for (int j = i + 1; j < _balls.size(); j++)
+		{
+			_gameObject[2] = _balls[j];
+			_gameObject[2]->collisionBall(_gameObject[1]);
+		}
+		_gameObject[2] = nullptr;
+
+
+		//calling function from selectra to check collision between it and each balls
+		_gameObject[0]->collisionSelectra(_gameObject[1]);
+
+		if (_gameObject[1]->passCollisionBS()){
+
+			if (_balls[i]->getPosition().x > _windowWidth / 2){
+				//action after collision with selectra
+				_randomPosition = glm::vec2(randomFunction(120, 220), 11 * 20);
+				_balls[i]->setPosition(_randomPosition.x, _randomPosition.y);
+			}
+			else{
+				_randomPosition = glm::vec2(randomFunction(480, 620), 11 * 20);
+				_balls[i]->setPosition(_randomPosition.x, _randomPosition.y);
+			}
+		}
+
+		//generating balls if it has touched the wall and increasing the score
+		if (_gameObject[1]->passCollisionBW() && _balls[i]->_idW){
+			++_score;
+			_soundeffect.play();
+			_balls[i]->_idW = false;
+			_balls[i]->_idB = false;
+			track = false;
+			creatingBall();
+			/*_randomPosition = glm::vec2(randomFunction(10, _windowHeight - 30), 48 * 20);
+			_speed = randomFunction(_speedLimit.x, _speedLimit.y);
+			_balls.push_back(new Balls);
+			_randomColorNo = randomFunction(0, _color.size() - 1);
+			_balls.back()->init(_randomPosition, _speed, _levels[_level1]->data(), _color[_randomColorNo]);
+			
+		}
+		//generating balls if ball collides with ball
+		if (_gameObject[1]->passCollisionBB() && _balls[i]->_idB){
+			++_score;
+			_soundeffect.play();
+			_balls[i]->_idB = false;
+			_balls[i]->_idW = false;
+			track = false;
+			creatingBall();
+		}
+		//updating ball with level data
+		_gameObject[1]->update(deltaTime);
+		//delete the ball first and decrease the score
+		if (_balls[i]->getPosition().y < 0 && _balls[i]->_idW&&_balls[i]->_idB){
+			--_score;
+			_balls[i] = _balls.back();
+			_balls.pop_back();
+			creatingBall();
+
+		}
+		if (_balls[i]->_idBasket&&!_balls[i]->_idB && !_balls[i]->_idW && _balls[i]->getPosition().y > 0){
+			if (  _balls[i]->getPosition().x > _windowWidth / 2)
+				cout << "ball dropped in right basket" << endl;
+			else
+				cout << "ball dropped in left basket" << endl;
+
+			_balls[i]->_idBasket = false;
+		}
+		
+		}*/

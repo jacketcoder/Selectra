@@ -1,0 +1,62 @@
+﻿Build started 3/16/2016 10:55:11 PM.
+     1>Project "F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Bengine\Bengine.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\deps\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AudioEngine.cpp Bengine.cpp Bullet1.cpp Camera2D.cpp Error.cpp GLSL.cpp GUI.cpp imageLoader.cpp InputManager.cpp IOManager.cpp picoPNG.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp TextureCache.cpp Timing.cpp Window.cpp
+         Window.cpp
+         Timing.cpp
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\timing.cpp(20): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\timing.cpp(21): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\timing.cpp(47): warning C4244: 'initializing' : conversion from 'Uint32' to 'float', possible loss of data
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\timing.cpp(50): warning C4244: 'argument' : conversion from 'float' to 'Uint32', possible loss of data
+         TextureCache.cpp
+         SpriteFont.cpp
+         SpriteBatch.cpp
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\spritebatch.cpp(81): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\spritebatch.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\spritebatch.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+         Sprite.cpp
+         ResourceManager.cpp
+         picoPNG.cpp
+         IOManager.cpp
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\iomanager.cpp(16): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\iomanager.cpp(21): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+         InputManager.cpp
+         imageLoader.cpp
+         GUI.cpp
+         GLSL.cpp
+         Error.cpp
+         Camera2D.cpp
+         Bullet1.cpp
+         Bengine.cpp
+         AudioEngine.cpp
+         Generating Code...
+     1>f:\pulchowk magic\vs\oglt\lesson1\introduction\bengine\iomanager.cpp(30): warning C4715: 'Bengine::IOManager::readFileToBuffer' : not all control paths return a value
+       Lib:
+         D:\VS\VC\bin\Lib.exe /OUT:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Debug\Bengine.lib" glew32.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib /LIBPATH:"F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\deps\lib\engineLib" /NOLOGO Debug\AudioEngine.obj
+         Debug\Bengine.obj
+         Debug\Bullet1.obj
+         Debug\Camera2D.obj
+         Debug\Error.obj
+         Debug\GLSL.obj
+         Debug\GUI.obj
+         Debug\imageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\picoPNG.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteFont.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+     1>SDL2.lib(SDL2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in glew32.lib(glew32.dll); second definition ignored
+     1>SDL2.lib(SDL2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>OpenGL32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in glew32.lib(glew32.dll); second definition ignored
+     1>OpenGL32.lib(OPENGL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Bengine.vcxproj -> F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Debug\Bengine.lib
+     1>Done Building Project "F:\PULCHOWK MAGIC\VS\OGLT\lesson1\introduction\Bengine\Bengine.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:00.35
